@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.text1 {
+  color: black;
+}
+.text2 {
+  color: blue;
+}
+.text3 {
+  color: green;
+}
+
+.zynx-section{
+  font-weight: bold;
+}
+
+.zynx-subsection{
+  font-style: italic;
+}

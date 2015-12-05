@@ -1,0 +1,63 @@
+[
+  {
+    "key": "2",
+    "expanded": true,
+    "title": "General",
+    "extraClasses":"zynx-section",
+    "children": [
+      {
+        "key": "3",
+        "expanded": true,
+        "title": "Initiate separate ED DKA management order set",
+        "extraClasses":"zynx-linkable"
+      }
+    ]
+  },
+  {
+    "key": "4",
+    "expanded": true,
+    "title": "Nursing Orders",
+    "extraClasses":"zynx-subsection",
+    "children": [
+      {
+        "key": "5",
+        "expanded": true,
+        "title": "Cardiac monitor",
+        "extraClasses":"zynx-orderable"
+      },
+      {
+        "key": "6",
+        "expanded": true,
+        "title": "Measure Blood Pressure <span class='text3'>every ____ minutes</span>",
+        "extraClasses":"zynx-orderable",
+        "data": {
+          "mappingkeyid":"12345",
+          "dbsource" : "65774"
+        }
+      },
+      {
+        "key": "7",
+        "expanded": true,
+        "title": "Pulse Oximetry",
+        "extraClasses":"zynx-orderable-grouping",
+        "children": [
+          {
+            "key": "8",
+            "expanded": true,
+            "title": "continuous",
+            "extraClasses":"zynx-detailline"
+          },
+          {
+            "key": "9",
+            "expanded": true,
+            "title": "once"
+          }
+        ]
+      }
+    ]},
+  {
+    "key": "20_2",
+    "expanded": true,
+    "title": "and so on..."
+  }
+]
