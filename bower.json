@@ -1,0 +1,23 @@
+{
+  "name": "tree",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/grenzi/tree",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "jquery.fancytree": "fancytree#~2.13.0",
+    "jquery": "1.11.1"
+  }
+}
