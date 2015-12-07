@@ -2,7 +2,6 @@
   {
     "key": 1,
     "expanded": true,
-    "title": "General",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>General>>>>>>>>",
@@ -14,7 +13,6 @@
       {
         "key": 2,
         "expanded": true,
-        "title": "Initiate separate ED DKA management order set",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>InitiateseparateEDDKAmanagementorderset>>>>>>",
@@ -31,7 +29,6 @@
   {
     "key": 3,
     "expanded": false,
-    "title": "Nursing Orders",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>NursingOrders>>>>>>>>",
@@ -43,7 +40,6 @@
       {
         "key": 4,
         "expanded": false,
-        "title": "Cardiac monitor",
         "extraClasses": "zynx-mappable zynx-orderable zynx-default",
         "data": {
           "mappingkey": "Orderable>>>>Cardiacmonitor>>>>>>>>",
@@ -57,7 +53,6 @@
       {
         "key": 5,
         "expanded": false,
-        "title": "Measure blood pressure",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Measurebloodpressure>>>>every_____minutes>>",
@@ -72,7 +67,6 @@
           {
             "key": "5a",
             "expanded": false,
-            "title": "every _____ minutes ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Measurebloodpressure>>>>every_____minutes>>",
@@ -90,7 +84,6 @@
       {
         "key": 6,
         "expanded": false,
-        "title": "Pulse oximetry POC",
         "extraClasses": "zynx-mappable zynx-orderable ",
         "data": {
           "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>continuous>>",
@@ -104,7 +97,6 @@
           {
             "key": "6a",
             "expanded": false,
-            "title": "continuous ",
             "extraClasses": "zynx-mappable zynx-detail zynx-default",
             "data": {
               "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>continuous>>",
@@ -119,7 +111,6 @@
           {
             "key": 7,
             "expanded": false,
-            "title": "once ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>once>>",
@@ -136,7 +127,6 @@
       {
         "key": 8,
         "expanded": false,
-        "title": "Glucose, blood, point-of-care measurement",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>stat>>",
@@ -150,7 +140,6 @@
           {
             "key": "8a",
             "expanded": false,
-            "title": "stat ",
             "extraClasses": "zynx-mappable zynx-detail zynx-default",
             "data": {
               "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>stat>>",
@@ -165,7 +154,6 @@
           {
             "key": 9,
             "expanded": false,
-            "title": "every hour ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>everyhour>>",
@@ -180,7 +168,6 @@
           {
             "key": 10,
             "expanded": false,
-            "title": "per insulin infusion protocol ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>perinsulininfusionprotocol>>",
@@ -197,7 +184,6 @@
       {
         "key": 11,
         "expanded": false,
-        "title": "Peripheral venous cannula insertion/management",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>1IVline>>",
@@ -210,7 +196,6 @@
           {
             "key": "11a",
             "expanded": false,
-            "title": "1 IV line ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>1IVline>>",
@@ -225,7 +210,6 @@
           {
             "key": 12,
             "expanded": false,
-            "title": "2 IV lines ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>2IVlines>>",
@@ -242,7 +226,6 @@
       {
         "key": 13,
         "expanded": false,
-        "title": "Urinary catheter initiation/management",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Urinarycatheterinitiation/management>>>>>>>>",
@@ -259,7 +242,6 @@
   {
     "key": 14,
     "expanded": false,
-    "title": "Respiratory",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Respiratory>>>>>>>>",
@@ -271,7 +253,6 @@
       {
         "key": 15,
         "expanded": false,
-        "title": "Initiate separate endotracheal intubation order set",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparateendotrachealintubationorderset>>>>>>",
@@ -286,7 +267,6 @@
       {
         "key": 16,
         "expanded": false,
-        "title": "Initiate separate mechanical ventilation order set",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparatemechanicalventilationorderset>>>>>>",
@@ -301,7 +281,6 @@
       {
         "key": 17,
         "expanded": false,
-        "title": "Initiate separate non-invasive mechanical ventilation order set",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparatenon-invasivemechanicalventilationorderset>>>>>>",
@@ -316,7 +295,6 @@
       {
         "key": 18,
         "expanded": false,
-        "title": "Oxygen via nasal cannula",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>_____litersperminute>>",
@@ -330,7 +308,6 @@
           {
             "key": "18a",
             "expanded": false,
-            "title":  "_____ liters per minute ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>_____litersperminute>>",
@@ -345,7 +322,6 @@
           {
             "key": 19,
             "expanded": false,
-            "title": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
@@ -362,7 +338,6 @@
       {
         "key": 20,
         "expanded": false,
-        "title": "Oxygen via nonrebreather face mask",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Oxygenvianonrebreatherfacemask>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
@@ -375,7 +350,6 @@
           {
             "key": "20a",
             "expanded": false,
-            "title": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Oxygenvianonrebreatherfacemask>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
@@ -392,7 +366,6 @@
       {
         "key": 21,
         "expanded": false,
-        "title": "ED respiratory therapy protocol",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>EDrespiratorytherapyprotocol>>>>>>",
@@ -409,7 +382,6 @@
   {
     "key": 22,
     "expanded": false,
-    "title": "IV Fluids",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>IVFluids>>>>>>>>",
@@ -421,7 +393,6 @@
       {
         "key": 23,
         "expanded": false,
-        "title": "IV Bolus Fluids ",
         "extraClasses": "zynx-not-mappable zynx-subsection",
         "data": {
           "mappingkey": "Section>>>>>>IVBolusFluids>>>>>>",
@@ -432,7 +403,6 @@
           {
             "key": 24,
             "expanded": false,
-            "title": "sodium chloride 0.9% (e.g. NS)",
             "extraClasses": "zynx-mappable zynx-medication zynx-orderable",
             "data": {
               "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>500milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
@@ -446,7 +416,6 @@
               {
                 "key": "24a",
                 "expanded": false,
-                "title": "500 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>500milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
@@ -461,7 +430,6 @@
               {
                 "key": 25,
                 "expanded": false,
-                "title": "1,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>1,000milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
@@ -476,7 +444,6 @@
               {
                 "key": 26,
                 "expanded": false,
-                "title": "2,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>2,000milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
@@ -495,7 +462,6 @@
       {
         "key": 27,
         "expanded": false,
-        "title": "IV Maintenance Fluids ",
         "extraClasses": "zynx-not-mappable zynx-subsection",
         "data": {
           "mappingkey": "Section>>>>>>IVMaintenanceFluids>>>>>>",
@@ -506,7 +472,6 @@
           {
             "key": 28,
             "expanded": false,
-            "title": "sodium chloride 0.9% (e.g. NS)",
             "extraClasses": "zynx-mappable zynx-medication zynx-orderable",
             "data": {
               "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>30milliliter/hourcontinuousintravenousinfusion>>",
@@ -520,7 +485,6 @@
               {
                 "key": "28a",
                 "expanded": false,
-                "title": "30 milliliter/hour continuous intravenous infusion ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>30milliliter/hourcontinuousintravenousinfusion>>",
@@ -535,7 +499,6 @@
               {
                 "key": 29,
                 "expanded": false,
-                "title": "125 milliliter/hour continuous intravenous infusion ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>125milliliter/hourcontinuousintravenousinfusion>>",
@@ -550,7 +513,6 @@
               {
                 "key": 30,
                 "expanded": false,
-                "title": "250 milliliter/hour continuous intravenous infusion ",
                 "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>250milliliter/hourcontinuousintravenousinfusion>>",
@@ -567,7 +529,6 @@
           {
             "key": 31,
             "expanded": false,
-            "title": "Saline lock",
             "extraClasses": "zynx-mappable zynx-orderable",
             "data": {
               "mappingkey": "Orderable>>>>Salinelock>>>>>>>>",
@@ -585,7 +546,6 @@
   {
     "key": 32,
     "expanded": false,
-    "title": "Medications",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Medications>>>>>>>>",
@@ -598,7 +558,6 @@
       {
         "key": 33,
         "expanded": false,
-        "title": "Initiate separate insulin infusion order set",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparateinsulininfusionorderset>>>>>>",
@@ -614,7 +573,6 @@
       {
         "key": 34,
         "expanded": false,
-        "title": "Consider holding insulin infusion until potassium level is greater than 3.5",
         "extraClasses": "zynx-not-mappable zynx-reminder",
         "data": {
           "mappingkey": "Reminder>>>>>>Considerholdinginsulininfusionuntilpotassiumlevelisgreaterthan3.5>>>>>>",
@@ -627,7 +585,6 @@
   {
     "key": 35,
     "expanded": false,
-    "title": "Insulins",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Insulins>>>>>>>>",
@@ -640,7 +597,6 @@
       {
         "key": 36,
         "expanded": false,
-        "title": "Communication order",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Communicationorder>>>>>>Tomixinsulininfusion:REGULARinsulin100unitsin100mLofSodiumChloride0.9%forafinalconcentrationof1unit/1mL;changeinfusionmixtureevery24hoursanduponmedicationexpiration>>",
@@ -654,7 +610,6 @@
           {
             "key": "36a",
             "expanded": false,
-            "title":"To mix insulin infusion: REGULAR insulin 100 units in 100 mL of Sodium Chloride 0.9% for a final concentration of 1 unit/1 mL; change infusion mixture every 24 hours and upon medication expiration ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>Communicationorder>>>>>>Tomixinsulininfusion:REGULARinsulin100unitsin100mLofSodiumChloride0.9%forafinalconcentrationof1unit/1mL;changeinfusionmixtureevery24hoursanduponmedicationexpiration>>",
@@ -671,7 +626,6 @@
       {
         "key": 37,
         "expanded": false,
-        "title": "insulin regular (e.g. HumuLIN R)",
         "extraClasses": "zynx-mappable zynx-medication",
         "data": {
           "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unitintravenouspushonce>>",
@@ -684,7 +638,6 @@
           {
             "key": "37a",
             "expanded": false,
-            "title": "_____ unit intravenous push once ",
             "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unitintravenouspushonce>>",
@@ -699,7 +652,6 @@
           {
             "key": 38,
             "expanded": false,
-            "title": "insulin regular (e.g. HumuLIN R)",
             "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unit/hourcontinuousintravenousinfusion>>",
@@ -716,7 +668,6 @@
       {
         "key": 39,
         "expanded": false,
-        "title": "insulin aspart (e.g. NovoLOG)",
         "extraClasses": "zynx-mappable zynx-medication",
         "data": {
           "mappingkey": "Medication>>>>insulinaspart(e.g.NovoLOG)>>>>>>_____unitsubcutaneouslyonce>>",
@@ -730,7 +681,6 @@
           {
             "key": "39a",
             "expanded": false,
-            "title": "insulin aspart (e.g. NovoLOG)",
             "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>insulinaspart(e.g.NovoLOG)>>>>>>_____unitsubcutaneouslyonce>>",
@@ -749,7 +699,6 @@
   {
     "key": 40,
     "expanded": false,
-    "title": "Vitamin and Mineral Supplements",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>VitaminandMineralSupplements>>>>>>>>",
@@ -761,7 +710,6 @@
       {
         "key": 41,
         "expanded": false,
-        "title": "Consider potassium replacement for serum potassium less than 5.3 mEq/L",
         "extraClasses": "zynx-mappable zynx-reminder",
         "data": {
           "mappingkey": "Reminder>>>>>>Considerpotassiumreplacementforserumpotassiumlessthan5.3mEq/L>>>>>>",
@@ -774,7 +722,6 @@
   {
     "key": 42,
     "expanded": false,
-    "title": "Potassium Supplements",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>PotassiumSupplements>>>>>>>>",
@@ -788,7 +735,6 @@
       {
         "key": 43,
         "expanded": false,
-        "title": "Oral administration",
         "extraClasses": "zynx-not-mappable zynx-subsection",
         "data": {
           "mappingkey": "Section>>>>>>Oraladministration>>>>>>",
@@ -799,8 +745,7 @@
           {
             "key": 44,
             "expanded": false,
-            "title": "potassium chloride",
-            "extraClasses": "zynx-mappable zynx-medication",
+            "extraClasses": "zynx-mappable zynx-medication ",
             "data": {
               "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentorallyonceforserumpotassiumlessthan5milliequivalentsperliter>>",
               "preselected": "Optional",
@@ -814,8 +759,7 @@
               {
                 "key": "44a",
                 "expanded": false,
-                "title": "20 milliequivalent orally once for serum potassium less than 5 milliequivalents per liter ",
-                "extraClasses": "zynx-mappable zynx-medication",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentorallyonceforserumpotassiumlessthan5milliequivalentsperliter>>",
                   "preselected": "Optional",
@@ -829,8 +773,7 @@
               {
                 "key": 45,
                 "expanded": false,
-                "title": "40 milliequivalent orally once for serum potassium 3-4 milliequivalents per liter; recheck potassium 2 hours after total dose administered ",
-                "extraClasses": "zynx-mappable zynx-medication",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>potassiumchloride>>>>>>40milliequivalentorallyonceforserumpotassium3-4milliequivalentsperliter;recheckpotassium2hoursaftertotaldoseadministered>>",
                   "preselected": "Optional",
@@ -848,7 +791,6 @@
       {
         "key": 46,
         "expanded": false,
-        "title": "Peripheral line administration",
         "extraClasses": "zynx-not-mappable zynx-subsection",
         "data": {
           "mappingkey": "Section>>>>>>Peripherallineadministration>>>>>>",
@@ -859,7 +801,6 @@
           {
             "key": 47,
             "expanded": false,
-            "title": "potassium chloride",
             "extraClasses": "zynx-mappable zynx-medication",
             "data": {
               "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over2hourasneededforserumpotassium3-4milliequivalentsperliter>>",
@@ -874,8 +815,7 @@
               {
                 "key": "47a",
                 "expanded": false,
-                "title": "20 milliequivalent intravenous piggyback ;  over 2 hour as needed for serum potassium 3-4 milliequivalents per liter ",
-                "extraClasses": "zynx-mappable zynx-medication",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over2hourasneededforserumpotassium3-4milliequivalentsperliter>>",
                   "preselected": "Optional",
@@ -889,8 +829,7 @@
               {
                 "key": 48,
                 "expanded": false,
-                "title": "20 milliequivalent intravenous piggyback ;  over 1 hour as needed for serum potassium less than 3 milliequivalents per liter ",
-                "extraClasses": "zynx-mappable zynx-medication",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
                 "data": {
                   "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over1hourasneededforserumpotassiumlessthan3milliequivalentsperliter>>",
                   "preselected": "Optional",
@@ -910,7 +849,6 @@
   {
     "key": 49,
     "expanded": false,
-    "title": "Alkalinizing Agents",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>AlkalinizingAgents>>>>>>>>",
@@ -922,7 +860,6 @@
       {
         "key": 50,
         "expanded": false,
-        "title": "Consider IV bicarbonate therapy for pH less than or equal to 7.0",
         "extraClasses": "zynx-mappable zynx-reminder",
         "data": {
           "mappingkey": "Reminder>>>>>>ConsiderIVbicarbonatetherapyforpHlessthanorequalto7.0>>>>>>",
@@ -933,7 +870,6 @@
       {
         "key": 51,
         "expanded": false,
-        "title": "sodium bicarbonate inj 8.4%",
         "extraClasses": "zynx-mappable zynx-medication",
         "data": {
           "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>_____milliequivalentintravenouspushonce(1milliequivalent/kilogram);max50milliequivalents>>",
@@ -949,8 +885,7 @@
           {
             "key": "51a",
             "expanded": false,
-            "title": "_____ milliequivalent intravenous push once (1 milliequivalent/kilogram); max 50 milliequivalents ",
-            "extraClasses": "zynx-mappable zynx-medication",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>_____milliequivalentintravenouspushonce(1milliequivalent/kilogram);max50milliequivalents>>",
               "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2326&ver=8",
@@ -965,8 +900,7 @@
           {
             "key": 52,
             "expanded": false,
-            "title": "50 milliequivalent intravenous push once ",
-            "extraClasses": "zynx-mappable zynx-medication",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>50milliequivalentintravenouspushonce>>",
               "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2326&ver=8",
@@ -985,7 +919,6 @@
   {
     "key": 53,
     "expanded": false,
-    "title": "Antihypoglycemic Agents",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>AntihypoglycemicAgents>>>>>>>>",
@@ -997,7 +930,6 @@
       {
         "key": 54,
         "expanded": false,
-        "title": "dextrose 50% (e.g. D50W)",
         "extraClasses": "zynx-mappable zynx-medication",
         "data": {
           "mappingkey": "Medication>>>>dextrose50%(e.g.D50W)>>>>>>25gramintravenouspushonceequivalentto50millilitersasneededforbloodglucoselessthan70>>",
@@ -1006,11 +938,10 @@
           "term": "dextrose 50% (e.g. D50W)",
           "pivotid": 14835370
         },
-        "children":[
+        "children": [
           {
             "key": "54a",
             "expanded": false,
-            "title": "25 gram intravenous push once equivalent to 50 milliliters as needed for blood glucose less than 70 ",
             "extraClasses": "zynx-mappable zynx-medication zynx-detail",
             "data": {
               "mappingkey": "Medication>>>>dextrose50%(e.g.D50W)>>>>>>25gramintravenouspushonceequivalentto50millilitersasneededforbloodglucoselessthan70>>",
@@ -1029,7 +960,6 @@
   {
     "key": 55,
     "expanded": false,
-    "title": "Laboratory",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Laboratory>>>>>>>>",
@@ -1041,7 +971,6 @@
       {
         "key": 56,
         "expanded": false,
-        "title": "3-beta-hydroxybutyrate",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>3-beta-hydroxybutyrate>>>>>>>>",
@@ -1055,7 +984,6 @@
       {
         "key": 57,
         "expanded": false,
-        "title": "Ketones, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Ketones,serum>>>>>>>>",
@@ -1070,7 +998,6 @@
       {
         "key": 58,
         "expanded": false,
-        "title": "Osmolality, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Osmolality,serum>>>>>>>>",
@@ -1085,7 +1012,6 @@
       {
         "key": 59,
         "expanded": false,
-        "title": "Hemoglobin A1c (HbA1c)",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>HemoglobinA1c(HbA1c)>>>>>>>>",
@@ -1101,7 +1027,6 @@
   {
     "key": 60,
     "expanded": false,
-    "title": "Most Common",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Chemistry>>MostCommon>>>>>>",
@@ -1114,7 +1039,6 @@
       {
         "key": 61,
         "expanded": false,
-        "title": "Point of care lab measurement",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Hemoglobinandhematocrit>>",
@@ -1125,11 +1049,10 @@
           "term": "CHS Non Med - Dummy term",
           "pivotid": 11469800
         },
-        "children":[
+        "children": [
           {
             "key": "61a",
             "expanded": false,
-            "title": "Hemoglobin and hematocrit ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Hemoglobinandhematocrit>>",
@@ -1145,7 +1068,6 @@
           {
             "key": 62,
             "expanded": false,
-            "title": "Prothrombin time (PT) and international normalized ratio (INR) ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Prothrombintime(PT)andinternationalnormalizedratio(INR)>>",
@@ -1161,7 +1083,6 @@
           {
             "key": 63,
             "expanded": false,
-            "title":  "B-type natriuretic peptide (BNP) ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>B-typenatriureticpeptide(BNP)>>",
@@ -1177,7 +1098,6 @@
           {
             "key": 64,
             "expanded": false,
-            "title": "Electrolyte panel ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Electrolytepanel>>",
@@ -1193,7 +1113,6 @@
           {
             "key": 65,
             "expanded": false,
-            "title":  "Troponin ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Troponin>>",
@@ -1209,7 +1128,6 @@
           {
             "key": 66,
             "expanded": false,
-            "title":"Other:____________________ ",
             "extraClasses": "zynx-mappable zynx-detail",
             "data": {
               "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Other:____________________>>",
@@ -1224,11 +1142,9 @@
           }
         ]
       },
-
       {
         "key": 67,
         "expanded": false,
-        "title": "Blood gas, arterial",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Bloodgas,arterial>>>>>>>>",
@@ -1243,7 +1159,6 @@
       {
         "key": 68,
         "expanded": false,
-        "title": "Blood gas, venous",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Bloodgas,venous>>>>>>>>",
@@ -1257,7 +1172,6 @@
       {
         "key": 69,
         "expanded": false,
-        "title": "Basic metabolic panel",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Basicmetabolicpanel>>>>>>now>>",
@@ -1272,7 +1186,6 @@
       {
         "key": 70,
         "expanded": false,
-        "title": "Basic metabolic panel",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Basicmetabolicpanel>>>>>>repeatin1hour>>",
@@ -1287,7 +1200,6 @@
       {
         "key": 71,
         "expanded": false,
-        "title": "Complete blood cell count with automated white blood cell differential",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Completebloodcellcountwithautomatedwhitebloodcelldifferential>>>>>>>>",
@@ -1301,7 +1213,6 @@
       {
         "key": 72,
         "expanded": false,
-        "title": "Comprehensive metabolic panel",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Comprehensivemetabolicpanel>>>>>>>>",
@@ -1315,7 +1226,6 @@
       {
         "key": 73,
         "expanded": false,
-        "title": "Hepatic function panel",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Hepaticfunctionpanel>>>>>>>>",
@@ -1329,7 +1239,6 @@
       {
         "key": 74,
         "expanded": false,
-        "title": "Lactate, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Lactate,serum>>>>>>>>",
@@ -1343,7 +1252,6 @@
       {
         "key": 75,
         "expanded": false,
-        "title": "Lipase",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Lipase>>>>>>>>",
@@ -1357,7 +1265,6 @@
       {
         "key": 76,
         "expanded": false,
-        "title": "Prothrombin time (PT) and international normalized ratio (INR)",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Prothrombintime(PT)andinternationalnormalizedratio(INR)>>>>>>>>",
@@ -1371,7 +1278,6 @@
       {
         "key": 77,
         "expanded": false,
-        "title": "Partial thromboplastin time (PTT), activated",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Partialthromboplastintime(PTT),activated>>>>>>>>",
@@ -1385,7 +1291,6 @@
       {
         "key": 78,
         "expanded": false,
-        "title": "Troponin",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Troponin>>>>>>stat>>",
@@ -1400,7 +1305,6 @@
       {
         "key": 79,
         "expanded": false,
-        "title": "Troponin",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Troponin>>>>>>stat;repeatin_____minutes>>",
@@ -1415,7 +1319,6 @@
       {
         "key": 80,
         "expanded": false,
-        "title": "D-dimer",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>D-dimer>>>>>>>>",
@@ -1429,7 +1332,6 @@
       {
         "key": 81,
         "expanded": false,
-        "title": "Beta human chorionic gonadotropin (beta-HCG), serum qualitative",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Betahumanchorionicgonadotropin(beta-HCG),serumqualitative>>>>>>>>",
@@ -1443,7 +1345,6 @@
       {
         "key": 82,
         "expanded": false,
-        "title": "Human chorionic gonadotropin (HCG), urine qualitative",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Humanchorionicgonadotropin(HCG),urinequalitative>>>>>>>>",
@@ -1457,7 +1358,6 @@
       {
         "key": 83,
         "expanded": false,
-        "title": "Urinalysis (UA) with microscopy",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Urinalysis(UA)withmicroscopy>>>>;cultureifindicated>>obtainviacleancatchperprotocol>>",
@@ -1473,7 +1373,6 @@
       {
         "key": 84,
         "expanded": false,
-        "title": "Urinalysis (UA) with microscopy",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Urinalysis(UA)withmicroscopy>>>>;cultureifindicated>>obtainviacatheterization>>",
@@ -1491,7 +1390,6 @@
   {
     "key": 85,
     "expanded": false,
-    "title": "Chemistry",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Chemistry>>>>>>>>",
@@ -1503,7 +1401,6 @@
       {
         "key": 86,
         "expanded": false,
-        "title": "Amylase, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Amylase,serum>>>>>>>>",
@@ -1517,7 +1414,6 @@
       {
         "key": 87,
         "expanded": false,
-        "title": "Calcium level, serum, ionized",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Calciumlevel,serum,ionized>>>>>>>>",
@@ -1531,7 +1427,6 @@
       {
         "key": 88,
         "expanded": false,
-        "title": "Creatine kinase, total (CK-total)",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Creatinekinase,total(CK-total)>>>>>>>>",
@@ -1545,7 +1440,6 @@
       {
         "key": 89,
         "expanded": false,
-        "title": "Lactate dehydrogenase (LDH), serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Lactatedehydrogenase(LDH),serum>>>>>>>>",
@@ -1559,7 +1453,6 @@
       {
         "key": 90,
         "expanded": false,
-        "title": "Magnesium (Mg) level, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Magnesium(Mg)level,serum>>>>>>>>",
@@ -1573,7 +1466,6 @@
       {
         "key": 91,
         "expanded": false,
-        "title": "Phosphorus level, serum",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Phosphoruslevel,serum>>>>>>>>",
@@ -1587,7 +1479,6 @@
       {
         "key": 92,
         "expanded": false,
-        "title": "Thyroid stimulating hormone (TSH)",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Thyroidstimulatinghormone(TSH)>>>>>>>>",
@@ -1601,7 +1492,6 @@
       {
         "key": 93,
         "expanded": false,
-        "title": "Triiodothyronine (T3), free",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Triiodothyronine(T3),free>>>>>>>>",
@@ -1617,7 +1507,6 @@
   {
     "key": 94,
     "expanded": false,
-    "title": "Diagnostics",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Diagnostics>>>>>>>>",
@@ -1629,7 +1518,6 @@
       {
         "key": 95,
         "expanded": false,
-        "title": "12-lead ECG",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>12-leadECG>>>>;Reasonforexam:______________________________>>>>",
@@ -1645,7 +1533,6 @@
       {
         "key": 96,
         "expanded": false,
-        "title": "Radiograph, chest, 1 view",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Radiograph,chest,1view>>>>(portable);Reasonforexam:______________________________>>>>",
@@ -1660,7 +1547,6 @@
       {
         "key": 97,
         "expanded": false,
-        "title": "Radiograph, chest, 2 views",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Radiograph,chest,2views>>>>;Reasonforexam:______________________________>>>>",
@@ -1677,7 +1563,6 @@
   {
     "key": 98,
     "expanded": false,
-    "title": "Consults",
     "extraClasses": "zynx-not-mappable zynx-section",
     "data": {
       "mappingkey": "Section>>>>Consults>>>>>>>>",
@@ -1689,7 +1574,6 @@
       {
         "key": 99,
         "expanded": false,
-        "title": "Consult to endocrinology",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Consulttoendocrinology>>>>;Reason/ProviderConsulted:_________________________>>>>",
@@ -1704,7 +1588,6 @@
       {
         "key": 100,
         "expanded": false,
-        "title": "Consult to social services",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Consulttosocialservices>>>>;Reason/ProviderConsulted:_________________________>>>>",
@@ -1719,7 +1602,6 @@
       {
         "key": 101,
         "expanded": false,
-        "title": "Consult to internal medicine",
         "extraClasses": "zynx-mappable zynx-orderable",
         "data": {
           "mappingkey": "Orderable>>>>Consulttointernalmedicine>>>>/hospitalist:Reason/ProviderConsulted:____________________>>>>",

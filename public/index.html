@@ -5,12 +5,14 @@
 
     <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="/bower_components/jquery-ui/jquery-ui.js"></script>
-    <link href="/bower_components/jquery.fancytree/dist/skin-lion/ui.fancytree.min.css" rel="stylesheet" type="text/css">
+    <link href="/bower_components/jquery.fancytree/dist/skin-lion/ui.fancytree.min.css" rel="stylesheet"
+          type="text/css">
     <script type="text/javascript" src="/bower_components/jquery.fancytree/dist/jquery.fancytree.js"></script>
     <script type="text/javascript" src="bower_components/jquery.fancytree/dist/src/jquery.fancytree.table.js"></script>
-    <script type="text/javascript" src="bower_components/jquery.fancytree/dist/src/jquery.fancytree.gridnav.js"></script>
-    <link rel="stylesheet" type="text/css" href="bower_components/simple-grid/simplegrid.css" />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript"
+            src="bower_components/jquery.fancytree/dist/src/jquery.fancytree.gridnav.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/simple-grid/simplegrid.css"/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
     <script type="text/javascript" src="index.js"></script>
 
 
@@ -19,9 +21,12 @@
 <div class="grid grid-pad">
     <div class="col-9-12">
         <div class="content">
-            <h1>quick example</h1>
+            <h1>example</h1>
+
             <p>final version should use css for table and relative widths for columns.</p>
-            <table id="tree"  border="1">
+
+            <p>this loads from zynxfull.json, which is a decent representation of the whole DKA order set</p>
+            <table id="tree" border="1">
                 <colgroup>
                     <col width="30px"></col>
                     <col width="*"></col>
@@ -48,17 +53,49 @@
             </table>
         </div>
         <div class="content">
-            <h1>the json format</h1>
-
+            <h1>how it loads</h1>
+            <h2>processing sequence</h2>
+            <ol>
+                <li>jquery creates the fancytree on document ready</li>
+                <li>fancytree lazyloads with the json url</li>
+                <li>on return, tree postProcess hook calls parseZynxJson</li>
+                <li>parseZynxJson looks at the first level children and calls populateZynxTitle for each of the top
+                    level nodes
+                <li>populateZynxTitle calculates the display name of the node. <b>the nice thing about this
+                    is that it keeps the server from having to touch display logic at all</b></li>
+                <li>populateZynxTitle calls populateZynxTitle for any child node the node it's working on
+                    (recursion)
+                </li>
+                <li>tree renderColumns hook calls renderZynxColumn</li>
+                <li>renderZynxColumn fills the icons cell, creates the url link, and populates the actions button</li>
+                <li>note that renderZynxColumn has access to all of the business data here to make decisions</li>
+            </ol>
+            <h2>rendering</h2>
+            <p>just about everything is done with css</p>
         </div>
         <div class="content">
             <h1>getting the tree as json</h1>
             <button onclick="getTreeAsJson();">Click Me</button>
         </div>
 
+        <div class="content">
+        <h1>delete node</h1>
+        <button onclick="deleteSelected();">Delete Selected</button>
+    </div>
+
+        <div class="content">
+            <h1>useful links</h1>
+            <p><a href="http://wwwendt.de/tech/fancytree/doc/jsdoc/" target="_blank">api docs</a></p>
+            <p><a href="http://wwwendt.de/tech/fancytree/demo" target="_blank">demo site</a></p>
+            <p><a href="http://wwwendt.de/tech/fancytree/demo/#sample-api.html" target="_blank">some api samples</a></p>
+            <p><a href="http://wwwendt.de/tech/fancytree/doc/jsdoc/FancytreeNode.html" target="_blank">node - the central data structure for tree manipulation</a> </p>
+        </div>
+
+
     </div>
     <div class="col-3-12">
         <h1>output area</h1>
+
         <div class="content" style=" overflow: auto;overflow-y: hidden;">
             <pre id="console"/>
         </div>

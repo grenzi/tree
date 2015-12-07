@@ -48,13 +48,13 @@ $(function(){
 
 
 //this is called to build the titles. it can offload some work from the server controller
-function calcZynxTitle(n){
+function populateZynxTitle(n){
 
     n.title = "ERROR PROCESSING ITEM!!!";
 
     if (n.data.itemtype == "Section" || n.data.itemtype=="Reminder")
     {
-        if (n.data.term == undefined)
+        if (n.data.term == undefined || n.data.textoverride != undefined)
             n.title = "<span class='zynx-title-textoverride'>"+coalesce(n.data.textoverride)+" </span>";
         else
             n.title = "<span class='zynx-title-term'>"+coalesce(n.data.term)+" </span>";
@@ -83,17 +83,17 @@ function calcZynxTitle(n){
     var i;
     if (n.children != undefined && n.children.length > 0)
         for (i=0; i< n.children.length; i++)
-            calcZynxTitle(n.children[i]);
+            populateZynxTitle(n.children[i]);
 
 
 }
-
 function parseZynxJson(event, data) {
     var i;
     for (i=0; i<data.response.length; i++)
-        calcZynxTitle(data.response[i]);
+        populateZynxTitle(data.response[i]);
     return data;
 }
+
 //this is called to help build the table row. the tr td exists as part of the node itself, so we're really dealling
 //with the controls data structure, which is actually great.
 function renderZynxColumn(event, data) {
@@ -119,9 +119,17 @@ function getTreeAsJson() {
     // Convert the whole tree into an dictionary
     var tree = $("#tree").fancytree("getTree");
     var d = tree.toDict(true);
-    $('#console').html(syntaxHighlight(d));
+    $('#console').append(syntaxHighlight(d));
 }
 
+function deleteSelected()
+{
+    var tree = $("#tree").fancytree("getTree");
+    var node = tree.activeNode;
+    $('#console').append('<p>user deleted node' + node.title + '</p>');
+    node.remove();
+
+}
 
 //helper functions
 function coalesce(str)
