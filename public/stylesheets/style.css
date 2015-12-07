@@ -7,17 +7,6 @@ a {
   color: #00B7FF;
 }
 
-
-.text1 {
-  color: black;
-}
-.text2 {
-  color: blue;
-}
-.text3 {
-  color: green;
-}
-
 .zynx-section{
   font-weight: bold;
 }
@@ -25,3 +14,40 @@ a {
 .zynx-subsection{
   font-style: italic;
 }
+
+.zynx-orderable{
+
+}
+
+.zynx-medication{
+
+}
+
+.zynx-detail .fancytree-title {
+  color: gray;
+}
+
+.zynx-not-mappable
+{
+
+}
+
+.zynx-Reminder{
+
+}
+
+.zynx-title-term{
+
+}
+.zynx-title-itemdetail{
+
+}
+.zynx-title-additionalinfo{
+
+}
+.zynx-title-textoverride{
+
+}
+.zynx-title-freetextdetail{
+
+ }

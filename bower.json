@@ -18,6 +18,7 @@
   "dependencies": {
     "jquery-ui": "~1.11.4",
     "jquery.fancytree": "fancytree#~2.13.0",
-    "jquery": "1.11.1"
+    "jquery": "1.11.1",
+    "Simple-Grid": "https://github.com/ThisIsDallas/Simple-Grid.git"
   }
 }

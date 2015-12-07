@@ -1,0 +1,1736 @@
+[
+  {
+    "key": 1,
+    "expanded": true,
+    "title": "General",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>General>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "General"
+    },
+    "children": [
+      {
+        "key": 2,
+        "expanded": true,
+        "title": "Initiate separate ED DKA management order set",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>InitiateseparateEDDKAmanagementorderset>>>>>>",
+          "preselected": "Optional",
+          "textoverride": "Initiate separate ED DKA management order set",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      }
+    ]
+  },
+  {
+    "key": 3,
+    "expanded": false,
+    "title": "Nursing Orders",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>NursingOrders>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Nursing Orders"
+    },
+    "children": [
+      {
+        "key": 4,
+        "expanded": false,
+        "title": "Cardiac monitor",
+        "extraClasses": "zynx-mappable zynx-orderable zynx-default",
+        "data": {
+          "mappingkey": "Orderable>>>>Cardiacmonitor>>>>>>>>",
+          "preselected": "Default",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Cardiac monitor",
+          "pivotid": 1160
+        }
+      },
+      {
+        "key": 5,
+        "expanded": false,
+        "title": "Measure blood pressure",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Measurebloodpressure>>>>every_____minutes>>",
+          "preselected": "Optional",
+          "textoverride": "Measure blood pressure",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        },
+        "children": [
+          {
+            "key": "5a",
+            "expanded": false,
+            "title": "every _____ minutes ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Measurebloodpressure>>>>every_____minutes>>",
+              "preselected": "Optional",
+              "itemdetail": "every _____ minutes ",
+              "textoverride": "Measure blood pressure",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          }
+        ]
+      },
+      {
+        "key": 6,
+        "expanded": false,
+        "title": "Pulse oximetry POC",
+        "extraClasses": "zynx-mappable zynx-orderable ",
+        "data": {
+          "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>continuous>>",
+          "preselected": "Default",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Pulse oximetry POC",
+          "pivotid": 1
+        },
+        "children": [
+          {
+            "key": "6a",
+            "expanded": false,
+            "title": "continuous ",
+            "extraClasses": "zynx-mappable zynx-detail zynx-default",
+            "data": {
+              "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>continuous>>",
+              "preselected": "Default",
+              "itemdetail": "continuous ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Pulse oximetry POC",
+              "pivotid": 1
+            }
+          },
+          {
+            "key": 7,
+            "expanded": false,
+            "title": "once ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>PulseoximetryPOC>>>>>>once>>",
+              "preselected": "Optional",
+              "itemdetail": "once ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Pulse oximetry POC",
+              "pivotid": 1
+            }
+          }
+        ]
+      },
+      {
+        "key": 8,
+        "expanded": false,
+        "title": "Glucose, blood, point-of-care measurement",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>stat>>",
+          "preselected": "Default",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Glucose, blood, point-of-care measurement",
+          "pivotid": 986
+        },
+        "children": [
+          {
+            "key": "8a",
+            "expanded": false,
+            "title": "stat ",
+            "extraClasses": "zynx-mappable zynx-detail zynx-default",
+            "data": {
+              "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>stat>>",
+              "preselected": "Default",
+              "itemdetail": "stat ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Glucose, blood, point-of-care measurement",
+              "pivotid": 986
+            }
+          },
+          {
+            "key": 9,
+            "expanded": false,
+            "title": "every hour ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>everyhour>>",
+              "preselected": "Optional",
+              "itemdetail": "every hour ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Glucose, blood, point-of-care measurement",
+              "pivotid": 986
+            }
+          },
+          {
+            "key": 10,
+            "expanded": false,
+            "title": "per insulin infusion protocol ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Glucose,blood,point-of-caremeasurement>>>>>>perinsulininfusionprotocol>>",
+              "preselected": "Optional",
+              "itemdetail": "per insulin infusion protocol ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Glucose, blood, point-of-care measurement",
+              "pivotid": 986
+            }
+          }
+        ]
+      },
+      {
+        "key": 11,
+        "expanded": false,
+        "title": "Peripheral venous cannula insertion/management",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>1IVline>>",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Peripheral venous cannula insertion/management",
+          "pivotid": 3063
+        },
+        "children": [
+          {
+            "key": "11a",
+            "expanded": false,
+            "title": "1 IV line ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>1IVline>>",
+              "preselected": "Optional",
+              "itemdetail": "1 IV line ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Peripheral venous cannula insertion/management",
+              "pivotid": 3063
+            }
+          },
+          {
+            "key": 12,
+            "expanded": false,
+            "title": "2 IV lines ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Peripheralvenouscannulainsertion/management>>>>>>2IVlines>>",
+              "preselected": "Optional",
+              "itemdetail": "2 IV lines ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Peripheral venous cannula insertion/management",
+              "pivotid": 3063
+            }
+          }
+        ]
+      },
+      {
+        "key": 13,
+        "expanded": false,
+        "title": "Urinary catheter initiation/management",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Urinarycatheterinitiation/management>>>>>>>>",
+          "url": "http://www.cdc.gov/hicpac/pdf/CAUTI/CAUTIguideline2009final.pdf",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Urinary catheter initiation/management",
+          "pivotid": 1963
+        }
+      }
+    ]
+  },
+  {
+    "key": 14,
+    "expanded": false,
+    "title": "Respiratory",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Respiratory>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Respiratory"
+    },
+    "children": [
+      {
+        "key": 15,
+        "expanded": false,
+        "title": "Initiate separate endotracheal intubation order set",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparateendotrachealintubationorderset>>>>>>",
+          "preselected": "Optional",
+          "textoverride": "Initiate separate endotracheal intubation order set",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      },
+      {
+        "key": 16,
+        "expanded": false,
+        "title": "Initiate separate mechanical ventilation order set",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparatemechanicalventilationorderset>>>>>>",
+          "preselected": "Optional",
+          "textoverride": "Initiate separate mechanical ventilation order set",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      },
+      {
+        "key": 17,
+        "expanded": false,
+        "title": "Initiate separate non-invasive mechanical ventilation order set",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparatenon-invasivemechanicalventilationorderset>>>>>>",
+          "preselected": "Optional",
+          "textoverride": "Initiate separate non-invasive mechanical ventilation order set",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      },
+      {
+        "key": 18,
+        "expanded": false,
+        "title": "Oxygen via nasal cannula",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>_____litersperminute>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Oxygen via nasal cannula",
+          "pivotid": 3173
+        },
+        "children": [
+          {
+            "key": "18a",
+            "expanded": false,
+            "title":  "_____ liters per minute ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>_____litersperminute>>",
+              "preselected": "Optional",
+              "itemdetail": "_____ liters per minute ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Oxygen via nasal cannula",
+              "pivotid": 3173
+            }
+          },
+          {
+            "key": 19,
+            "expanded": false,
+            "title": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Oxygenvianasalcannula>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
+              "preselected": "Optional",
+              "itemdetail": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Oxygen via nasal cannula",
+              "pivotid": 3173
+            }
+          }
+        ]
+      },
+      {
+        "key": 20,
+        "expanded": false,
+        "title": "Oxygen via nonrebreather face mask",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Oxygenvianonrebreatherfacemask>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Oxygen via nonrebreather face mask"
+        },
+        "children": [
+          {
+            "key": "20a",
+            "expanded": false,
+            "title": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Oxygenvianonrebreatherfacemask>>>>>>titratetomaintainSpO2greaterthanorequalto92%perunitpolicy>>",
+              "preselected": "Optional",
+              "itemdetail": "titrate to maintain SpO2 greater than or equal to 92% per unit policy ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Oxygen via nonrebreather face mask",
+              "pivotid": 570
+            }
+          }
+        ]
+      },
+      {
+        "key": 21,
+        "expanded": false,
+        "title": "ED respiratory therapy protocol",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>EDrespiratorytherapyprotocol>>>>>>",
+          "preselected": "Optional",
+          "textoverride": "ED respiratory therapy protocol",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      }
+    ]
+  },
+  {
+    "key": 22,
+    "expanded": false,
+    "title": "IV Fluids",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>IVFluids>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "IV Fluids"
+    },
+    "children": [
+      {
+        "key": 23,
+        "expanded": false,
+        "title": "IV Bolus Fluids ",
+        "extraClasses": "zynx-not-mappable zynx-subsection",
+        "data": {
+          "mappingkey": "Section>>>>>>IVBolusFluids>>>>>>",
+          "textoverride": "IV Bolus Fluids ",
+          "itemtype": "Section"
+        },
+        "children": [
+          {
+            "key": 24,
+            "expanded": false,
+            "title": "sodium chloride 0.9% (e.g. NS)",
+            "extraClasses": "zynx-mappable zynx-medication zynx-orderable",
+            "data": {
+              "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>500milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
+              "preselected": "Optional",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "sodium chloride 0.9% (e.g. NS)",
+              "pivotid": 14823735
+            },
+            "children": [
+              {
+                "key": "24a",
+                "expanded": false,
+                "title": "500 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>500milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
+                  "preselected": "Optional",
+                  "itemdetail": "500 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              },
+              {
+                "key": 25,
+                "expanded": false,
+                "title": "1,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>1,000milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
+                  "preselected": "Optional",
+                  "itemdetail": "1,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              },
+              {
+                "key": 26,
+                "expanded": false,
+                "title": "2,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>2,000milliliterboluscontinuousintravenousinfusion;infuseat999milliliters/hourstat>>",
+                  "preselected": "Optional",
+                  "itemdetail": "2,000 milliliter bolus continuous intravenous infusion ; infuse at 999 milliliters/hour stat ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 27,
+        "expanded": false,
+        "title": "IV Maintenance Fluids ",
+        "extraClasses": "zynx-not-mappable zynx-subsection",
+        "data": {
+          "mappingkey": "Section>>>>>>IVMaintenanceFluids>>>>>>",
+          "textoverride": "IV Maintenance Fluids ",
+          "itemtype": "Section"
+        },
+        "children": [
+          {
+            "key": 28,
+            "expanded": false,
+            "title": "sodium chloride 0.9% (e.g. NS)",
+            "extraClasses": "zynx-mappable zynx-medication zynx-orderable",
+            "data": {
+              "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>30milliliter/hourcontinuousintravenousinfusion>>",
+              "preselected": "Optional",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "sodium chloride 0.9% (e.g. NS)",
+              "pivotid": 14823735
+            },
+            "children": [
+              {
+                "key": "28a",
+                "expanded": false,
+                "title": "30 milliliter/hour continuous intravenous infusion ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>30milliliter/hourcontinuousintravenousinfusion>>",
+                  "preselected": "Optional",
+                  "itemdetail": "30 milliliter/hour continuous intravenous infusion ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              },
+              {
+                "key": 29,
+                "expanded": false,
+                "title": "125 milliliter/hour continuous intravenous infusion ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>125milliliter/hourcontinuousintravenousinfusion>>",
+                  "preselected": "Optional",
+                  "itemdetail": "125 milliliter/hour continuous intravenous infusion ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              },
+              {
+                "key": 30,
+                "expanded": false,
+                "title": "250 milliliter/hour continuous intravenous infusion ",
+                "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+                "data": {
+                  "mappingkey": "Medication>>>>sodiumchloride0.9%(e.g.NS)>>>>>>250milliliter/hourcontinuousintravenousinfusion>>",
+                  "preselected": "Optional",
+                  "itemdetail": "250 milliliter/hour continuous intravenous infusion ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "sodium chloride 0.9% (e.g. NS)",
+                  "pivotid": 14823735
+                }
+              }
+            ]
+          },
+          {
+            "key": 31,
+            "expanded": false,
+            "title": "Saline lock",
+            "extraClasses": "zynx-mappable zynx-orderable",
+            "data": {
+              "mappingkey": "Orderable>>>>Salinelock>>>>>>>>",
+              "preselected": "Optional",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Saline lock",
+              "pivotid": 1972
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": 32,
+    "expanded": false,
+    "title": "Medications",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Medications>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Medications",
+      "pivotid": 2026
+    },
+    "children": [
+      {
+        "key": 33,
+        "expanded": false,
+        "title": "Initiate separate insulin infusion order set",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Initiateseparateinsulininfusionorderset>>>>>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=11661&ver=13",
+          "preselected": "Optional",
+          "textoverride": "Initiate separate insulin infusion order set",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        }
+      },
+      {
+        "key": 34,
+        "expanded": false,
+        "title": "Consider holding insulin infusion until potassium level is greater than 3.5",
+        "extraClasses": "zynx-not-mappable zynx-reminder",
+        "data": {
+          "mappingkey": "Reminder>>>>>>Considerholdinginsulininfusionuntilpotassiumlevelisgreaterthan3.5>>>>>>",
+          "textoverride": "Consider holding insulin infusion until potassium level is greater than 3.5",
+          "itemtype": "Reminder"
+        }
+      }
+    ]
+  },
+  {
+    "key": 35,
+    "expanded": false,
+    "title": "Insulins",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Insulins>>>>>>>>",
+      "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=7443&ver=12",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Insulins"
+    },
+    "children": [
+      {
+        "key": 36,
+        "expanded": false,
+        "title": "Communication order",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Communicationorder>>>>>>Tomixinsulininfusion:REGULARinsulin100unitsin100mLofSodiumChloride0.9%forafinalconcentrationof1unit/1mL;changeinfusionmixtureevery24hoursanduponmedicationexpiration>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Communication order",
+          "pivotid": 759
+        },
+        "children": [
+          {
+            "key": "36a",
+            "expanded": false,
+            "title":"To mix insulin infusion: REGULAR insulin 100 units in 100 mL of Sodium Chloride 0.9% for a final concentration of 1 unit/1 mL; change infusion mixture every 24 hours and upon medication expiration ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>Communicationorder>>>>>>Tomixinsulininfusion:REGULARinsulin100unitsin100mLofSodiumChloride0.9%forafinalconcentrationof1unit/1mL;changeinfusionmixtureevery24hoursanduponmedicationexpiration>>",
+              "preselected": "Optional",
+              "itemdetail": "To mix insulin infusion: REGULAR insulin 100 units in 100 mL of Sodium Chloride 0.9% for a final concentration of 1 unit/1 mL; change infusion mixture every 24 hours and upon medication expiration ",
+              "termcatalog": "Zynx",
+              "itemtype": "Orderable",
+              "term": "Communication order",
+              "pivotid": 759
+            }
+          }
+        ]
+      },
+      {
+        "key": 37,
+        "expanded": false,
+        "title": "insulin regular (e.g. HumuLIN R)",
+        "extraClasses": "zynx-mappable zynx-medication",
+        "data": {
+          "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unitintravenouspushonce>>",
+          "termcatalog": "Custom",
+          "itemtype": "Medication",
+          "term": "insulin regular (e.g. HumuLIN R)",
+          "pivotid": 14161980
+        },
+        "children": [
+          {
+            "key": "37a",
+            "expanded": false,
+            "title": "_____ unit intravenous push once ",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+            "data": {
+              "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unitintravenouspushonce>>",
+              "preselected": "Optional",
+              "itemdetail": "_____ unit intravenous push once ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "insulin regular (e.g. HumuLIN R)",
+              "pivotid": 14161980
+            }
+          },
+          {
+            "key": 38,
+            "expanded": false,
+            "title": "insulin regular (e.g. HumuLIN R)",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+            "data": {
+              "mappingkey": "Medication>>>>insulinregular(e.g.HumuLINR)>>>>>>_____unit/hourcontinuousintravenousinfusion>>",
+              "preselected": "Optional",
+              "itemdetail": "_____ unit/hour continuous intravenous infusion ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "insulin regular (e.g. HumuLIN R)",
+              "pivotid": 14161980
+            }
+          }
+        ]
+      },
+      {
+        "key": 39,
+        "expanded": false,
+        "title": "insulin aspart (e.g. NovoLOG)",
+        "extraClasses": "zynx-mappable zynx-medication",
+        "data": {
+          "mappingkey": "Medication>>>>insulinaspart(e.g.NovoLOG)>>>>>>_____unitsubcutaneouslyonce>>",
+          "preselected": "Optional",
+          "termcatalog": "Custom",
+          "itemtype": "Medication",
+          "term": "insulin aspart (e.g. NovoLOG)",
+          "pivotid": 15510787
+        },
+        "children": [
+          {
+            "key": "39a",
+            "expanded": false,
+            "title": "insulin aspart (e.g. NovoLOG)",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+            "data": {
+              "mappingkey": "Medication>>>>insulinaspart(e.g.NovoLOG)>>>>>>_____unitsubcutaneouslyonce>>",
+              "preselected": "Optional",
+              "itemdetail": "_____ unit subcutaneously once ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "insulin aspart (e.g. NovoLOG)",
+              "pivotid": 15510787
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": 40,
+    "expanded": false,
+    "title": "Vitamin and Mineral Supplements",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>VitaminandMineralSupplements>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Vitamin and Mineral Supplements"
+    },
+    "children": [
+      {
+        "key": 41,
+        "expanded": false,
+        "title": "Consider potassium replacement for serum potassium less than 5.3 mEq/L",
+        "extraClasses": "zynx-mappable zynx-reminder",
+        "data": {
+          "mappingkey": "Reminder>>>>>>Considerpotassiumreplacementforserumpotassiumlessthan5.3mEq/L>>>>>>",
+          "textoverride": "Consider potassium replacement for serum potassium less than 5.3 mEq/L",
+          "itemtype": "Reminder"
+        }
+      }
+    ]
+  },
+  {
+    "key": 42,
+    "expanded": false,
+    "title": "Potassium Supplements",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>PotassiumSupplements>>>>>>>>",
+      "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=9416&ver=8",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Potassium Supplements",
+      "pivotid": 2269
+    },
+    "children": [
+      {
+        "key": 43,
+        "expanded": false,
+        "title": "Oral administration",
+        "extraClasses": "zynx-not-mappable zynx-subsection",
+        "data": {
+          "mappingkey": "Section>>>>>>Oraladministration>>>>>>",
+          "textoverride": "Oral administration",
+          "itemtype": "Section"
+        },
+        "children": [
+          {
+            "key": 44,
+            "expanded": false,
+            "title": "potassium chloride",
+            "extraClasses": "zynx-mappable zynx-medication",
+            "data": {
+              "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentorallyonceforserumpotassiumlessthan5milliequivalentsperliter>>",
+              "preselected": "Optional",
+              "itemdetail": "20 milliequivalent orally once for serum potassium less than 5 milliequivalents per liter ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "potassium chloride",
+              "pivotid": 14162304
+            },
+            "children": [
+              {
+                "key": "44a",
+                "expanded": false,
+                "title": "20 milliequivalent orally once for serum potassium less than 5 milliequivalents per liter ",
+                "extraClasses": "zynx-mappable zynx-medication",
+                "data": {
+                  "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentorallyonceforserumpotassiumlessthan5milliequivalentsperliter>>",
+                  "preselected": "Optional",
+                  "itemdetail": "20 milliequivalent orally once for serum potassium less than 5 milliequivalents per liter ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "potassium chloride",
+                  "pivotid": 14162304
+                }
+              },
+              {
+                "key": 45,
+                "expanded": false,
+                "title": "40 milliequivalent orally once for serum potassium 3-4 milliequivalents per liter; recheck potassium 2 hours after total dose administered ",
+                "extraClasses": "zynx-mappable zynx-medication",
+                "data": {
+                  "mappingkey": "Medication>>>>potassiumchloride>>>>>>40milliequivalentorallyonceforserumpotassium3-4milliequivalentsperliter;recheckpotassium2hoursaftertotaldoseadministered>>",
+                  "preselected": "Optional",
+                  "itemdetail": "40 milliequivalent orally once for serum potassium 3-4 milliequivalents per liter; recheck potassium 2 hours after total dose administered ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "potassium chloride",
+                  "pivotid": 14162304
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 46,
+        "expanded": false,
+        "title": "Peripheral line administration",
+        "extraClasses": "zynx-not-mappable zynx-subsection",
+        "data": {
+          "mappingkey": "Section>>>>>>Peripherallineadministration>>>>>>",
+          "textoverride": "Peripheral line administration",
+          "itemtype": "Section"
+        },
+        "children": [
+          {
+            "key": 47,
+            "expanded": false,
+            "title": "potassium chloride",
+            "extraClasses": "zynx-mappable zynx-medication",
+            "data": {
+              "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over2hourasneededforserumpotassium3-4milliequivalentsperliter>>",
+              "preselected": "Optional",
+              "itemdetail": "20 milliequivalent intravenous piggyback ;  over 2 hour as needed for serum potassium 3-4 milliequivalents per liter ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "potassium chloride",
+              "pivotid": 14162304
+            },
+            "children": [
+              {
+                "key": "47a",
+                "expanded": false,
+                "title": "20 milliequivalent intravenous piggyback ;  over 2 hour as needed for serum potassium 3-4 milliequivalents per liter ",
+                "extraClasses": "zynx-mappable zynx-medication",
+                "data": {
+                  "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over2hourasneededforserumpotassium3-4milliequivalentsperliter>>",
+                  "preselected": "Optional",
+                  "itemdetail": "20 milliequivalent intravenous piggyback ;  over 2 hour as needed for serum potassium 3-4 milliequivalents per liter ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "potassium chloride",
+                  "pivotid": 14162304
+                }
+              },
+              {
+                "key": 48,
+                "expanded": false,
+                "title": "20 milliequivalent intravenous piggyback ;  over 1 hour as needed for serum potassium less than 3 milliequivalents per liter ",
+                "extraClasses": "zynx-mappable zynx-medication",
+                "data": {
+                  "mappingkey": "Medication>>>>potassiumchloride>>>>>>20milliequivalentintravenouspiggyback;over1hourasneededforserumpotassiumlessthan3milliequivalentsperliter>>",
+                  "preselected": "Optional",
+                  "itemdetail": "20 milliequivalent intravenous piggyback ;  over 1 hour as needed for serum potassium less than 3 milliequivalents per liter ",
+                  "termcatalog": "Custom",
+                  "itemtype": "Medication",
+                  "term": "potassium chloride",
+                  "pivotid": 14162304
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": 49,
+    "expanded": false,
+    "title": "Alkalinizing Agents",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>AlkalinizingAgents>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Alkalinizing Agents"
+    },
+    "children": [
+      {
+        "key": 50,
+        "expanded": false,
+        "title": "Consider IV bicarbonate therapy for pH less than or equal to 7.0",
+        "extraClasses": "zynx-mappable zynx-reminder",
+        "data": {
+          "mappingkey": "Reminder>>>>>>ConsiderIVbicarbonatetherapyforpHlessthanorequalto7.0>>>>>>",
+          "textoverride": "Consider IV bicarbonate therapy for pH less than or equal to 7.0",
+          "itemtype": "Reminder"
+        }
+      },
+      {
+        "key": 51,
+        "expanded": false,
+        "title": "sodium bicarbonate inj 8.4%",
+        "extraClasses": "zynx-mappable zynx-medication",
+        "data": {
+          "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>_____milliequivalentintravenouspushonce(1milliequivalent/kilogram);max50milliequivalents>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2326&ver=8",
+          "preselected": "Optional",
+          "itemdetail": "_____ milliequivalent intravenous push once (1 milliequivalent/kilogram); max 50 milliequivalents ",
+          "termcatalog": "Custom",
+          "itemtype": "Medication",
+          "term": "sodium bicarbonate inj 8.4%",
+          "pivotid": 14162428
+        },
+        "children": [
+          {
+            "key": "51a",
+            "expanded": false,
+            "title": "_____ milliequivalent intravenous push once (1 milliequivalent/kilogram); max 50 milliequivalents ",
+            "extraClasses": "zynx-mappable zynx-medication",
+            "data": {
+              "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>_____milliequivalentintravenouspushonce(1milliequivalent/kilogram);max50milliequivalents>>",
+              "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2326&ver=8",
+              "preselected": "Optional",
+              "itemdetail": "_____ milliequivalent intravenous push once (1 milliequivalent/kilogram); max 50 milliequivalents ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "sodium bicarbonate inj 8.4%",
+              "pivotid": 14162428
+            }
+          },
+          {
+            "key": 52,
+            "expanded": false,
+            "title": "50 milliequivalent intravenous push once ",
+            "extraClasses": "zynx-mappable zynx-medication",
+            "data": {
+              "mappingkey": "Medication>>>>sodiumbicarbonateinj8.4%>>>>>>50milliequivalentintravenouspushonce>>",
+              "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2326&ver=8",
+              "preselected": "Optional",
+              "itemdetail": "50 milliequivalent intravenous push once ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "sodium bicarbonate inj 8.4%",
+              "pivotid": 14162428
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": 53,
+    "expanded": false,
+    "title": "Antihypoglycemic Agents",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>AntihypoglycemicAgents>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Antihypoglycemic Agents"
+    },
+    "children": [
+      {
+        "key": 54,
+        "expanded": false,
+        "title": "dextrose 50% (e.g. D50W)",
+        "extraClasses": "zynx-mappable zynx-medication",
+        "data": {
+          "mappingkey": "Medication>>>>dextrose50%(e.g.D50W)>>>>>>25gramintravenouspushonceequivalentto50millilitersasneededforbloodglucoselessthan70>>",
+          "termcatalog": "Custom",
+          "itemtype": "Medication",
+          "term": "dextrose 50% (e.g. D50W)",
+          "pivotid": 14835370
+        },
+        "children":[
+          {
+            "key": "54a",
+            "expanded": false,
+            "title": "25 gram intravenous push once equivalent to 50 milliliters as needed for blood glucose less than 70 ",
+            "extraClasses": "zynx-mappable zynx-medication zynx-detail",
+            "data": {
+              "mappingkey": "Medication>>>>dextrose50%(e.g.D50W)>>>>>>25gramintravenouspushonceequivalentto50millilitersasneededforbloodglucoselessthan70>>",
+              "preselected": "Optional",
+              "itemdetail": "25 gram intravenous push once equivalent to 50 milliliters as needed for blood glucose less than 70 ",
+              "termcatalog": "Custom",
+              "itemtype": "Medication",
+              "term": "dextrose 50% (e.g. D50W)",
+              "pivotid": 14835370
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": 55,
+    "expanded": false,
+    "title": "Laboratory",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Laboratory>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Laboratory"
+    },
+    "children": [
+      {
+        "key": 56,
+        "expanded": false,
+        "title": "3-beta-hydroxybutyrate",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>3-beta-hydroxybutyrate>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "3-beta-hydroxybutyrate",
+          "pivotid": 2781
+        }
+      },
+      {
+        "key": 57,
+        "expanded": false,
+        "title": "Ketones, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Ketones,serum>>>>>>>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2317&ver=8",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Ketones, serum",
+          "pivotid": 1330
+        }
+      },
+      {
+        "key": 58,
+        "expanded": false,
+        "title": "Osmolality, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Osmolality,serum>>>>>>>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=9415&ver=8",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Osmolality, serum",
+          "pivotid": 1067
+        }
+      },
+      {
+        "key": 59,
+        "expanded": false,
+        "title": "Hemoglobin A1c (HbA1c)",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>HemoglobinA1c(HbA1c)>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Hemoglobin A1c (HbA1c)",
+          "pivotid": 1206
+        }
+      }
+    ]
+  },
+  {
+    "key": 60,
+    "expanded": false,
+    "title": "Most Common",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Chemistry>>MostCommon>>>>>>",
+      "textoverride": "Most Common",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Chemistry"
+    },
+    "children": [
+      {
+        "key": 61,
+        "expanded": false,
+        "title": "Point of care lab measurement",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Hemoglobinandhematocrit>>",
+          "preselected": "Optional",
+          "textoverride": "Point of care lab measurement",
+          "termcatalog": "Custom",
+          "itemtype": "Orderable",
+          "term": "CHS Non Med - Dummy term",
+          "pivotid": 11469800
+        },
+        "children":[
+          {
+            "key": "61a",
+            "expanded": false,
+            "title": "Hemoglobin and hematocrit ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Hemoglobinandhematocrit>>",
+              "preselected": "Optional",
+              "itemdetail": "Hemoglobin and hematocrit ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          },
+          {
+            "key": 62,
+            "expanded": false,
+            "title": "Prothrombin time (PT) and international normalized ratio (INR) ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Prothrombintime(PT)andinternationalnormalizedratio(INR)>>",
+              "preselected": "Optional",
+              "itemdetail": "Prothrombin time (PT) and international normalized ratio (INR) ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          },
+          {
+            "key": 63,
+            "expanded": false,
+            "title":  "B-type natriuretic peptide (BNP) ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>B-typenatriureticpeptide(BNP)>>",
+              "preselected": "Optional",
+              "itemdetail": "B-type natriuretic peptide (BNP) ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          },
+          {
+            "key": 64,
+            "expanded": false,
+            "title": "Electrolyte panel ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Electrolytepanel>>",
+              "preselected": "Optional",
+              "itemdetail": "Electrolyte panel ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          },
+          {
+            "key": 65,
+            "expanded": false,
+            "title":  "Troponin ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Troponin>>",
+              "preselected": "Optional",
+              "itemdetail": "Troponin ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          },
+          {
+            "key": 66,
+            "expanded": false,
+            "title":"Other:____________________ ",
+            "extraClasses": "zynx-mappable zynx-detail",
+            "data": {
+              "mappingkey": "Orderable>>>>CHSNonMed-Dummyterm>>Pointofcarelabmeasurement>>>>Other:____________________>>",
+              "preselected": "Optional",
+              "itemdetail": "Other:____________________ ",
+              "textoverride": "Point of care lab measurement",
+              "termcatalog": "Custom",
+              "itemtype": "Orderable",
+              "term": "CHS Non Med - Dummy term",
+              "pivotid": 11469800
+            }
+          }
+        ]
+      },
+
+      {
+        "key": 67,
+        "expanded": false,
+        "title": "Blood gas, arterial",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Bloodgas,arterial>>>>>>>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2312&ver=7",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Blood gas, arterial",
+          "pivotid": 2336
+        }
+      },
+      {
+        "key": 68,
+        "expanded": false,
+        "title": "Blood gas, venous",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Bloodgas,venous>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Blood gas, venous",
+          "pivotid": 1552
+        }
+      },
+      {
+        "key": 69,
+        "expanded": false,
+        "title": "Basic metabolic panel",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Basicmetabolicpanel>>>>>>now>>",
+          "preselected": "Optional",
+          "itemdetail": "now ",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Basic metabolic panel",
+          "pivotid": 2730
+        }
+      },
+      {
+        "key": 70,
+        "expanded": false,
+        "title": "Basic metabolic panel",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Basicmetabolicpanel>>>>>>repeatin1hour>>",
+          "preselected": "Optional",
+          "itemdetail": "repeat in 1 hour ",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Basic metabolic panel",
+          "pivotid": 2730
+        }
+      },
+      {
+        "key": 71,
+        "expanded": false,
+        "title": "Complete blood cell count with automated white blood cell differential",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Completebloodcellcountwithautomatedwhitebloodcelldifferential>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Complete blood cell count with automated white blood cell differential",
+          "pivotid": 3069
+        }
+      },
+      {
+        "key": 72,
+        "expanded": false,
+        "title": "Comprehensive metabolic panel",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Comprehensivemetabolicpanel>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Comprehensive metabolic panel",
+          "pivotid": 716
+        }
+      },
+      {
+        "key": 73,
+        "expanded": false,
+        "title": "Hepatic function panel",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Hepaticfunctionpanel>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Hepatic function panel",
+          "pivotid": 3018
+        }
+      },
+      {
+        "key": 74,
+        "expanded": false,
+        "title": "Lactate, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Lactate,serum>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Lactate, serum",
+          "pivotid": 2950
+        }
+      },
+      {
+        "key": 75,
+        "expanded": false,
+        "title": "Lipase",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Lipase>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Lipase",
+          "pivotid": 3205
+        }
+      },
+      {
+        "key": 76,
+        "expanded": false,
+        "title": "Prothrombin time (PT) and international normalized ratio (INR)",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Prothrombintime(PT)andinternationalnormalizedratio(INR)>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Prothrombin time (PT) and international normalized ratio (INR)",
+          "pivotid": 3143
+        }
+      },
+      {
+        "key": 77,
+        "expanded": false,
+        "title": "Partial thromboplastin time (PTT), activated",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Partialthromboplastintime(PTT),activated>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Partial thromboplastin time (PTT), activated",
+          "pivotid": 3814
+        }
+      },
+      {
+        "key": 78,
+        "expanded": false,
+        "title": "Troponin",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Troponin>>>>>>stat>>",
+          "preselected": "Optional",
+          "itemdetail": "stat ",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Troponin",
+          "pivotid": 2745
+        }
+      },
+      {
+        "key": 79,
+        "expanded": false,
+        "title": "Troponin",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Troponin>>>>>>stat;repeatin_____minutes>>",
+          "preselected": "Optional",
+          "itemdetail": "stat ; repeat in _____ minutes ",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Troponin",
+          "pivotid": 2745
+        }
+      },
+      {
+        "key": 80,
+        "expanded": false,
+        "title": "D-dimer",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>D-dimer>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "D-dimer",
+          "pivotid": 2318
+        }
+      },
+      {
+        "key": 81,
+        "expanded": false,
+        "title": "Beta human chorionic gonadotropin (beta-HCG), serum qualitative",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Betahumanchorionicgonadotropin(beta-HCG),serumqualitative>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Beta human chorionic gonadotropin (beta-HCG), serum qualitative",
+          "pivotid": 23921
+        }
+      },
+      {
+        "key": 82,
+        "expanded": false,
+        "title": "Human chorionic gonadotropin (HCG), urine qualitative",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Humanchorionicgonadotropin(HCG),urinequalitative>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Human chorionic gonadotropin (HCG), urine qualitative",
+          "pivotid": 872
+        }
+      },
+      {
+        "key": 83,
+        "expanded": false,
+        "title": "Urinalysis (UA) with microscopy",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Urinalysis(UA)withmicroscopy>>>>;cultureifindicated>>obtainviacleancatchperprotocol>>",
+          "preselected": "Optional",
+          "itemdetail": "obtain via clean catch per protocol ",
+          "additionalinfo": "; culture if indicated",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Urinalysis (UA) with microscopy",
+          "pivotid": 3035
+        }
+      },
+      {
+        "key": 84,
+        "expanded": false,
+        "title": "Urinalysis (UA) with microscopy",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Urinalysis(UA)withmicroscopy>>>>;cultureifindicated>>obtainviacatheterization>>",
+          "preselected": "Optional",
+          "itemdetail": "obtain via catheterization ",
+          "additionalinfo": "; culture if indicated",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Urinalysis (UA) with microscopy",
+          "pivotid": 3035
+        }
+      }
+    ]
+  },
+  {
+    "key": 85,
+    "expanded": false,
+    "title": "Chemistry",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Chemistry>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Chemistry"
+    },
+    "children": [
+      {
+        "key": 86,
+        "expanded": false,
+        "title": "Amylase, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Amylase,serum>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Amylase, serum",
+          "pivotid": 938
+        }
+      },
+      {
+        "key": 87,
+        "expanded": false,
+        "title": "Calcium level, serum, ionized",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Calciumlevel,serum,ionized>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Calcium level, serum, ionized",
+          "pivotid": 2654
+        }
+      },
+      {
+        "key": 88,
+        "expanded": false,
+        "title": "Creatine kinase, total (CK-total)",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Creatinekinase,total(CK-total)>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Creatine kinase, total (CK-total)",
+          "pivotid": 392
+        }
+      },
+      {
+        "key": 89,
+        "expanded": false,
+        "title": "Lactate dehydrogenase (LDH), serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Lactatedehydrogenase(LDH),serum>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Lactate dehydrogenase (LDH), serum",
+          "pivotid": 791
+        }
+      },
+      {
+        "key": 90,
+        "expanded": false,
+        "title": "Magnesium (Mg) level, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Magnesium(Mg)level,serum>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Magnesium (Mg) level, serum",
+          "pivotid": 290
+        }
+      },
+      {
+        "key": 91,
+        "expanded": false,
+        "title": "Phosphorus level, serum",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Phosphoruslevel,serum>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Phosphorus level, serum",
+          "pivotid": 1969
+        }
+      },
+      {
+        "key": 92,
+        "expanded": false,
+        "title": "Thyroid stimulating hormone (TSH)",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Thyroidstimulatinghormone(TSH)>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Thyroid stimulating hormone (TSH)",
+          "pivotid": 980
+        }
+      },
+      {
+        "key": 93,
+        "expanded": false,
+        "title": "Triiodothyronine (T3), free",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Triiodothyronine(T3),free>>>>>>>>",
+          "preselected": "Optional",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Triiodothyronine (T3), free",
+          "pivotid": 3249
+        }
+      }
+    ]
+  },
+  {
+    "key": 94,
+    "expanded": false,
+    "title": "Diagnostics",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Diagnostics>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Diagnostics"
+    },
+    "children": [
+      {
+        "key": 95,
+        "expanded": false,
+        "title": "12-lead ECG",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>12-leadECG>>>>;Reasonforexam:______________________________>>>>",
+          "url": "http://www.zynx.com/Reference/Content.aspx?ItemID=2321&ver=7",
+          "preselected": "Optional",
+          "additionalinfo": "; Reason for exam: ______________________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "12-lead ECG",
+          "pivotid": 1012
+        }
+      },
+      {
+        "key": 96,
+        "expanded": false,
+        "title": "Radiograph, chest, 1 view",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Radiograph,chest,1view>>>>(portable);Reasonforexam:______________________________>>>>",
+          "preselected": "Optional",
+          "additionalinfo": "(portable) ; Reason for exam: ______________________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Radiograph, chest, 1 view",
+          "pivotid": 2918
+        }
+      },
+      {
+        "key": 97,
+        "expanded": false,
+        "title": "Radiograph, chest, 2 views",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Radiograph,chest,2views>>>>;Reasonforexam:______________________________>>>>",
+          "preselected": "Optional",
+          "additionalinfo": "; Reason for exam: ______________________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Radiograph, chest, 2 views",
+          "pivotid": 2313
+        }
+      }
+    ]
+  },
+  {
+    "key": 98,
+    "expanded": false,
+    "title": "Consults",
+    "extraClasses": "zynx-not-mappable zynx-section",
+    "data": {
+      "mappingkey": "Section>>>>Consults>>>>>>>>",
+      "termcatalog": "Zynx",
+      "itemtype": "Section",
+      "term": "Consults"
+    },
+    "children": [
+      {
+        "key": 99,
+        "expanded": false,
+        "title": "Consult to endocrinology",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Consulttoendocrinology>>>>;Reason/ProviderConsulted:_________________________>>>>",
+          "preselected": "Optional",
+          "additionalinfo": "; Reason/Provider Consulted: _________________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Consult to endocrinology",
+          "pivotid": 1007
+        }
+      },
+      {
+        "key": 100,
+        "expanded": false,
+        "title": "Consult to social services",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Consulttosocialservices>>>>;Reason/ProviderConsulted:_________________________>>>>",
+          "preselected": "Optional",
+          "additionalinfo": "; Reason/Provider Consulted: _________________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Consult to social services",
+          "pivotid": 1617
+        }
+      },
+      {
+        "key": 101,
+        "expanded": false,
+        "title": "Consult to internal medicine",
+        "extraClasses": "zynx-mappable zynx-orderable",
+        "data": {
+          "mappingkey": "Orderable>>>>Consulttointernalmedicine>>>>/hospitalist:Reason/ProviderConsulted:____________________>>>>",
+          "preselected": "Optional",
+          "additionalinfo": "/ hospitalist: Reason/Provider Consulted: ____________________",
+          "termcatalog": "Zynx",
+          "itemtype": "Orderable",
+          "term": "Consult to internal medicine",
+          "pivotid": 667
+        }
+      }
+    ]
+  }
+]
